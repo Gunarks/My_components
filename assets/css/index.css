@@ -121,6 +121,30 @@ a {
     color: inherit;
 }
 
+/* Social midia */
+
+.link-icon {
+    display: inline-block;
+    margin-right: 2rem;
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+    font-style: normal;
+}
+
+.link-icon svg {
+   width: 4rem;
+   height: 4rem;
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 1.5rem;
+   margin-bottom: 1em;
+   fill:currentColor;
+}
+
+.link-icon:hover {
+    color: var(--primary-color);
+}
+
 /* Articles */
 
 .highlight {

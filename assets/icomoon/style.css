@@ -1,7 +1,17 @@
+:root{
+    --primary-color:#f037f0f1;
+    --secondary-color: #31333b;
+    --secondary-color-ligth: #444856;
+    --secondary-color-dark: #23252d;
+
+    --default-gap:3rem;
+}
+
+
 .icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
+  width: 2.2em;
+  height: 2.2em;
+  margin-bottom: 1em;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
